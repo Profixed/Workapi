@@ -1,10 +1,12 @@
 //DataBase Config 
 const host = require("./db")
+
+/*
 const mongoose = require('mongoose');
 mongoose.connect(host,{useNewUrlParser: true})
 .then(db => console.log('DataBase is connected all Ok'))
 .catch(err => console.log(err));
-
+*/
 
 
 //Import the routes plaease  use in the end code
