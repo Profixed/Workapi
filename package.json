@@ -1,0 +1,17 @@
+{
+  "name": "workplayapi",
+  "version": "1.0.0",
+  "description": "Happy API get a good proyect in easy time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "MGP",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0"
+  }
+}
