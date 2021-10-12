@@ -38,7 +38,9 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 //Public Folder 
-app.use(express.static(path.join(__dirname, 'public')))
+
+app.use('/static', express.static(__dirname + '/public'));
+//app.use(express.static(path.join(__dirname, 'public')))
 
 
 app.get('/', function (req, res) {
